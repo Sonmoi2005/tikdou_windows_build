@@ -58,7 +58,7 @@ dist/TikTok Downloader.app
 
 Kéo file này vào thư mục Applications hoặc double-click để chạy.
 
-### Cách 3: Dùng Automator ( đơn giản hơn)
+### Cách 3: Dùng Automator (đơn giản hơn)
 
 1. Mở **Automator** (tìm trong Spotlight)
 2. Chọn **New Document** → **Application**
@@ -67,11 +67,11 @@ Kéo file này vào thư mục Applications hoặc double-click để chạy.
 
 ```bash
 #!/bin/bash
-cd /đường/đấn/đến/thư/mục/chứa/main.py
+cd /đường/dẫn/đến/thư/mục/chứa/main.py
 /usr/local/bin/python3 main.py
 ```
 
-(Thay `/đường/đấn/đến/thư/mục/chứa/main.py` bằng đường dẫn thật)
+(Thay `/đường/dẫn/đến/thư/mục/chứa/main.py` bằng đường dẫn thật)
 
 5. **File** → **Save** → Đặt tên: "TikTok Downloader"
 6. Lưu vào Desktop hoặc Applications
@@ -80,10 +80,10 @@ cd /đường/đấn/đến/thư/mục/chứa/main.py
 ## Hướng dẫn sử dụng tool
 
 1. **Nhập link kênh**: Nhập username (vd: `@username`) hoặc URL đầy đủ
-2. **Click "Quét kên kề kê̇nh"**: Tool sẽ liệt kê̇ tẫ lất tất cả video
+2. **Click "Quét kênh"**: Tool sẽ liệt kê tất cả video
 3. **Chọn số video**: Nhập số video muốn tải (mặc định 10)
 4. **Chọn thư mục**: Click "Chọn thư mục" để chọn nơi lưu
-5. **Click "Bắt đầu tải"**: Tool sẻ tải tuần tự từng video
+5. **Click "Bắt đầu tải"**: Tool sẽ tải tuần tự từng video
 6. **Tạm dừng/Tiếp tục**: Dùng nút "Tạm dừng" khi cần
 
 ## Lưu ý
@@ -105,8 +105,8 @@ pip3 install yt-dlp
 ```
 
 ### Lỗi: Không quét được video
-- Kiểm tra link kên TikTok có đúng không
-- Kên có thể bị private hoặc không tồn tại
+- Kiểm tra link kênh TikTok có đúng không
+- Kênh có thể bị private hoặc không tồn tại
 - Thử cập nhật yt-dlp: `pip3 install -U yt-dlp`
 
 ### Lỗi khi build .app
@@ -121,7 +121,7 @@ python3 setup.py py2app
 - **RAM**: Nên có ít nhất 4GB RAM khi tải nhiều video
 - **Disk**: Đảm bảo đủ dung lượng ổ cứng (video HD có thể 20-100MB/video)
 - **Mạng**: Tốc độ internet càng nhanh, tải càng nhanh
-- **Số video**: Với hàng nghìn video, nên tải theo tỷ lô 100-200 video
+- **Số video**: Với hàng nghìn video, nên tải theo từng batch 100-200 video
 
 ## Version
 
